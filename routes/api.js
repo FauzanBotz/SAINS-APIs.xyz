@@ -327,7 +327,7 @@ router.get('/tiktod/stalk', async (req, res, next) => {
             res.json({
                 status : true,
                 creator : `${creator}`,
-                result : user
+                result : user 
             })
         })
         .catch(e => {
